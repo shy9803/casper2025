@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* qna.css */
+
+/* 시승신청 섹션 */
+.online_qna {
+  width: 600px;
+  margin: 0 auto;
+  /* border: 1px solid #333; */
+}
+.online_qna > h2 {
+  display: none;
+}
+
+/* 시승신청 폼 */
+fieldset {border: none; padding: 10px 30px;}
+legend {
+  text-align: center;
+  font-size: 20px;
+  line-height: 40px;
+}
+fieldset > p {
+  margin: 15px 0;
+}
+
+/* 예약,취소 버튼 */
+fieldset input[type=submit], fieldset input[type=reset] {
+  border: none;
+  padding: 6px 0;
+  width: 49%;
+  color: #fff;
+  cursor: pointer;
+}
+fieldset input[type=submit] {
+  background: #29519c;
+}
+fieldset input[type=reset] {
+  background: #3d3d3d;
+}
+
+.count_box .count {
+  border: none;
+  color: #333;
+  text-align: right;
+}
+textarea {
+  width: 100%;
+}
+
+.agree {margin: 10px 0 15px 0;}
+.agree i.fas {
+  float: right;
+  transform: translateY(6px);
+}
+.con {
+  margin-top: 10px;
+  line-height: 20px;
+  border: 1px solid #ddd;
+}
+.con p, .con ol {
+  padding: 5px;
+}

@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* login.css */
+
+/* 배경색 삽입 */
+header {
+  background: #fff;
+}
+
+body {
+  background: #dedede;
+  width: 100%;
+}
+
+/* 로그인 폼 서식 */
+#login_form {
+  padding: 164px;
+}
+#login_form > h2 {
+  display: none;
+}
+#login_form > form {
+  width: 350px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+form legend {
+  text-align: center;
+  font-size: 18px;
+  line-height: 60px;
+  font-weight: bold;
+}
+form input[type=text], form input[type=password], form input[type=submit] {
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+}
+form div {
+  margin: 10px 0;
+}
+
+form input[type=text], form input[type=password] {
+  text-indent: 10px;
+}
+
+.id_save_sec {
+  margin: 15px 0;
+}
+.id_save_sec > label {
+  font-size: 14px;
+}
+
+input[type=submit] {
+  background: #1379ee;
+  color: #fff;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background: #0b59b3;
+}
+
+.search_sec {
+  text-align: center;
+  margin: 15px auto;
+}
+.search_sec > a {
+  display: inline-block;
+  width: 30%;
+  border-right: 1px solid #666;
+}
+.search_sec > a:nth-child(2) {
+  padding: 0 10px;
+}
+.search_sec > a:last-child {
+  border-right: none;
+}

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/* 공통 */
+*{margin: 0; padding: 0;}
+body {font-family: '맑은 고딕', arial, sans-serif; font-size: 14px; color: #333;}
+a {text-decoration: none; color: #333;}
+
+/* 시승신청 폼 */
+form {width: 900px; margin: 0 auto;}
+fieldset {border: none; padding: 10px 30px;}
+
+/* 테이블 */
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table, tr, th, td {
+  border: 1px solid #ccc;
+}
+
+caption {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+}
+thead {
+  background: #444;
+  color: #fff;
+}
+tr {
+  line-height: 36px;
+}
+th {
+  font-weight: normal;
+}
+
+/* 시승신청 예약 */
+.reserve {
+  text-align: center;
+  margin: 20px auto;
+}
+.reserve a {
+  background: #29519c;
+  color: #fff;
+  display: inline-block;
+  width: 240px;
+  padding: 10px 0;
+}
+
+/* 시승신청 예약조회 */
+.reserve_list {
+  background: #b8bdee;
+  padding: 20px;
+  text-align: center;
+}
+.reserve_list > input {
+  margin: 0 1px;
+  padding: 5px 0;
+}
+.reserve_list > input[type=search] {
+  width: 250px;
+}
+.reserve_list > input[type=submit] {
+  background: #333268;
+  color: #fff;
+  border: none;
+  width: 100px;
+  cursor: pointer;
+}
